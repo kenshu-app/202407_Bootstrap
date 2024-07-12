@@ -11,6 +11,7 @@
 
 body {
   padding-top: 100px;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -38,4 +39,8 @@ ul {
 .btn-primary:hover {
   background-color: var(--sub-color);
   border: 1px solid var(--sub-color);
+}
+
+.topics .col-lg-4 {
+  scroll-margin-top: 50vw;
 }

@@ -50,3 +50,11 @@ ul {
 .topics .col-lg-4 {
   scroll-margin-top: 50vw;
 }
+
+footer a {
+  color: var(--key-color);
+}
+
+footer a:hover {
+  color: var(--sub-color);
+}
